@@ -13,7 +13,7 @@
    margin: 0;
    padding: 0;
 }
-.navbar li {
+.navbar ul li {
    display: inline;
    margin: 0 1em;
 }
@@ -48,11 +48,11 @@ main section {
    margin: 1em;
    padding: 1em;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   width: 30%
+   width: 30%;
    box-sizing: border-box;
    transition: transform 0.3s;
 }
-.portfoilio-item h3 {
+.portfolio-item h3 {
    font-weight: bold;
    margin-bottom: 0.5em;
 }
@@ -62,7 +62,7 @@ main section {
 }
 .portfolio-item img {
    width: 100%
-   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.)
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1)
 }
 .portfolio-item:hover {
    transform: scale(1.05);
@@ -72,7 +72,7 @@ main section {
    color: #fff;
    padding: 2em;
    text-align: center;
-   position:nrelative;
+   position: relative;
    bottom: 0;
    width: 100%;
 }
