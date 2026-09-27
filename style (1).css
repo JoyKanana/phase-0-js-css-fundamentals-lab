@@ -17,7 +17,7 @@
    display: inline;
    margin: 0 1em;
 }
-.navbar a {
+.navbar ul li a {
    color: #fff;
 }
 
